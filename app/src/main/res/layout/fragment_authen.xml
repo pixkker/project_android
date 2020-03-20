@@ -1,0 +1,137 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    tools:context=".authen">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="548dp"-->
+<!--        android:background="@drawable/f2" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:layout_marginLeft="160dp"-->
+<!--&lt;!&ndash;        android:layout_marginTop="180dp"&ndash;&gt;-->
+<!--        android:layout_marginRight="100dp"-->
+<!--        android:text="SE"-->
+<!--        android:textColor="#070606"-->
+<!--        android:textSize="36sp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/username"-->
+<!--        android:layout_width="364dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginLeft="0dp"-->
+<!--        android:layout_marginTop="250dp"-->
+<!--        android:layout_marginRight="0dp"-->
+<!--        android:background="#97FADBD8"-->
+<!--        android:hint="Username"-->
+<!--        android:padding="16dp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/password"-->
+<!--        android:layout_width="363dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginLeft="0dp"-->
+<!--        android:layout_marginTop="350dp"-->
+<!--        android:layout_marginRight="0dp"-->
+<!--        android:background="#97FADBD8"-->
+<!--        android:hint="Password"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:padding="16dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/login"-->
+<!--        android:layout_width="151dp"-->
+<!--        android:layout_height="73dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="102dp"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:layout_marginTop="70dp"-->
+<!--        android:layout_marginEnd="110dp"-->
+<!--        android:layout_marginRight="120dp"-->
+<!--        android:layout_marginBottom="74dp"-->
+<!--        android:background="#EC655C"-->
+<!--        android:text="LOGIN"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:textSize="20sp" />-->
+
+<!--    <com.facebook.login.widget.LoginButton-->
+<!--        android:id="@+id/login_button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"/>-->
+
+<!--</LinearLayout>-->
+<!--&lt;!&ndash;<?xml version="1.0" encoding="utf-8"?>&ndash;&gt;-->
+<!--&lt;!&ndash;<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+<!--&lt;!&ndash;    xmlns:tools="http://schemas.android.com/tools"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:orientation="vertical"&ndash;&gt;-->
+<!--&lt;!&ndash;    tools:context=".authen">-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f2"
+    tools:context=".authen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="425dp"
+        android:layout_height="342dp"
+        android:layout_marginTop="200dp"
+        android:background="#6FFFF1F1" />
+
+    <EditText
+        android:id="@+id/user_input"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnNextPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="#F44336"
+        android:text="login" />
+
+    <EditText
+        android:id="@+id/pass_input"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="350dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="80dp" />
+</FrameLayout>
